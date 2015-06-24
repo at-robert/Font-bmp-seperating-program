@@ -1,0 +1,15 @@
+Purpose:
+The function of this program is to read a bmp file which includes a few words in the picture and then separate them into individual character. 
+
+Note:
+* You can generate the your own bmp file by using Photoshop or any other picture handling program. 
+* This program can be re-compiled in linux or Mac os environment by using GCC compiler with the attached Makefile. 
+
+-f input file (Test.bmp)
+-w input file's width 
+-h input file's height
+-c Generated file start number
+-p The prefix of generated files
+
+For example:
+./sepFont -f Test.bmp -w 128 -h 24 -c 0 -p Tes
